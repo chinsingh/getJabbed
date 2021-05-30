@@ -1,0 +1,40 @@
+# Get Jabbed
+Get Jabbed is a python application which can help you in booking the vaccine by checking for slots continuously and opening COWIN as soon as its available.
+
+#### What is it not
+It is NOT a replacement or an alternative to COWIN.  
+
+
+### Prerequisites
+* An account on COWIN with at least one member registered
+* [Google Chrome](https://www.google.com/intl/en_in/chrome/) browser
+
+
+## Intial Steps
+1. On the website, enter your phone number, state and district.
+2. Select the centers for which you want to book the slots for (for example, centers near you)
+3. Click the download button to get the application. 
+4. When prompted, please allow multiple downloads so that both the app and settings could be downloaded.
+
+**NOTE: Always keep the .exe file and settings.json together in the same folder**
+
+
+## Usage
+1. Run the GetJabbed.exe file at the time when slots usually open daily or whenever you want it to look for slots. 
+2. When it detects the slot, it will open up the broswer and log you in. You just need to enter the OTP once.
+3. After entering the OTP it will take you to the booking screen from where you can select the slot and make the booking.
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+You can also [report a bug, request a feature](https://github.com/chinsingh/getJabbed/issues/new/choose) or [email me](mailto:mr.chinmaysingh.gmail.com).
+
+## Credits
+This project was made possible by the [COWIN API](https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2#).
+
+## Donations
+Please [consider donating](https://www.pmcares.gov.in/en/) to the COVID relief fund of your choice.
+
+## License
+[MIT](https://github.com/chinsingh/getJabbed/blob/master/LICENSE.md)
