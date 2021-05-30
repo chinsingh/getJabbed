@@ -2,7 +2,12 @@
     display: block;
     text-align: center;
 }
-
+a{
+  color: rgb(75, 28, 1);
+}
+a:hover{
+  color: rgb(255, 182, 45);
+}
 .form-control:focus{
   border-color: rgb(255, 182, 45);
   box-shadow: 0 0 0 0.2rem rgba(255, 182, 45, 0.25);
