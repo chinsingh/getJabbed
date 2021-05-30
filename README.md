@@ -1,5 +1,5 @@
 # Get Jabbed
-Get Jabbed is a python application which can help you in booking the vaccine by checking for slots continuously and opening COWIN as soon as its available.
+Get Jabbed is an application which can help you in booking the vaccine by checking for slots continuously and opening COWIN as soon as its available.
 
 #### What is it not
 It is NOT a replacement or an alternative to COWIN.  
