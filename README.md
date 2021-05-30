@@ -7,11 +7,12 @@ It is NOT a replacement or an alternative to COWIN.
 
 ### Prerequisites
 * An account on COWIN with at least one member registered
+* PC or mac (the website will provide you with an exe file which you'll have to run from your laptop or desktop. There's no point accessing the website from the phone and that is why its not designed for phone browsers)
 * [Google Chrome](https://www.google.com/intl/en_in/chrome/) browser
 
 
 ## Intial Steps
-1. On the website, enter your phone number, state and district.
+1. On the [website](https://get-jabbed.herokuapp.com/), enter your phone number, state and district.
 2. Select the centers for which you want to book the slots for (for example, centers near you)
 3. Click the download button to get the application. 
 4. When prompted, please allow multiple downloads so that both the app and settings could be downloaded.
