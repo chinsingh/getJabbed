@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Get Jabbed</title>
+</head>
+<body>
+    <form id="form" action="" method="POST" enctype="application/x-www-form-urlencoded">
+        <div id="navbar">
+            
+            <h1 class="gj-text-center navbar-component" id="logo">GET JABBED</h1>
+            <small class="gj-text-center" id="read-instructions">Read <a href="#">usage instructions</a> before using</small>
+
+            <div class="input-group mb-3 navbar-component" id="phone-number-container">
+                <span class="input-group-text phonenumber">+91</span>
+                <input type="number" required
+                       oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" 
+                       class="form-control warning phonenumber" name="phonenumber"
+                       placeholder="Phone Number" aria-label="Phonenumber" 
+                       aria-describedby="basic-addon1" maxlength="10">
+            </div>
+            <div class="navbar-component" id="state-district">
+                <div class="options mb-3 col">
+                    <select class="form-select gj-dropdowns" aria-label="Default select example" name="state_id" id="state-dropdown">
+                        <option selected>Select your state</option>
+                    </select>
+                </div>
+                <div class="options mb-3 col">  
+                    <select class="form-select gj-dropdowns" aria-label="Default select example" name="district_id" id="district-dropdown" disabled>
+                        <option selected value="0">Select your district</option>
+                    </select>
+                </div>    
+            </div> 
+            <input type="submit" value="Download" class="btn btn-warning  btn-lg shadow" id="download-button"></input>
+        </div> 
+        <div class="container">
+            <div class="row" id="centers-body">
+                <div class="col"></div>
+                <div class="col gj-text-center alert alert-warning" id="select-center-info">Select the centers for which you want check the slots   
+                    <button type="button" class="btn-close btn-sm" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" id="center-div">
+                <div class="col" id="center-column1"></div>
+                <div class="col" id="center-column2"></div>
+                <div class="col" id="center-column3"></div>
+            </div>
+        </div>
+    </form>  
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script> 
+    <script src="resources.js"></script>
+    <script src="api.js"></script>
+    <script src="style.js"></script>
+    <script type="text/javascript" src="jszip.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.8/FileSaver.js"></script>
+    <script src="jszip-utils.js"></script>
+    <script src="settings.js"></script>
+    <script src="script.js"></script>
+ </html>
