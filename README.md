@@ -4,7 +4,7 @@ Get Jabbed is an application which can help you in booking the vaccine by checki
 #### What is it not
 It is NOT a replacement or an alternative to COWIN.  
 
-## How it works
+### How it works
 You enter your details on the website to create the settings for the application. Once you're done, you click the download button which will download the app along with the settings. When you run the app, it will keep checking continuously for slots availability **for all age groups and both doses** for the centers you have selected. As soon as the slots become available, it will open up the browser and take you straight to the booking screen. You just have to enter the OTP once.
 
 ### Prerequisites
