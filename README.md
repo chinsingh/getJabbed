@@ -5,13 +5,15 @@ Get Jabbed is an application which can help you in booking the vaccine by checki
 It is NOT a replacement or an alternative to COWIN.  
 
 ## How it works
-You enter your details on the website to create the settings for the application. Once you're done, you click the download button which will download the app along with the settings. When you run the app, it will keep checking continuously for slots availability for the centers you have selected. As soon as the slots become available, it will open up the browser and take you straight to the booking screen. You just have to enter the OTP once.
+You enter your details on the website to create the settings for the application. Once you're done, you click the download button which will download the app along with the settings. When you run the app, it will keep checking continuously for slots availability **for all age groups and both doses** for the centers you have selected. As soon as the slots become available, it will open up the browser and take you straight to the booking screen. You just have to enter the OTP once.
 
 ### Prerequisites
 * An account on COWIN with at least one member registered
 * PC or mac (the website will provide you with an exe file which you'll have to run from your laptop or desktop. There's no point accessing the website from the phone and that is why its not designed for phone browsers)
 * [Google Chrome](https://www.google.com/intl/en_in/chrome/) browser
 
+## Installation
+Although an .exe file will be downloaded when you click on the download button on the website, but no installation is required. The .exe itself is the application.
 
 ## Intial Steps
 1. On the [website](https://get-jabbed.herokuapp.com/), enter your phone number, state and district.
