@@ -22,7 +22,7 @@ function create_settings(e) {
     downloadAnchorNode.setAttribute("download", "settings.json");
     document.body.appendChild(downloadAnchorNode); // required for firefox
     downloadAnchorNode.click();
-    downloadAnchorNode.setAttribute("href", "GetJabbed.exe");
+    downloadAnchorNode.setAttribute("href", BIN_DOWNLOAD_URL);
     downloadAnchorNode.setAttribute("download", "GetJabbed.exe");
     document.body.appendChild(downloadAnchorNode); // required for firefox
     downloadAnchorNode.click();
