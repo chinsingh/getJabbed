@@ -1,3 +1,4 @@
+// Cowin
 async function get_states(){
     let states_response = await fetch(GET_STATES_URL);
     let states_data = await states_response.json()
@@ -16,6 +17,23 @@ async function get_centers(district_id){
     return center_data;
 }
 
+//Github releases
+async function get_bin_download_url(){
+    try {
+        let release_respone = await fetch(GITHUB_LATEST_RELEASE)
+        let release_data = await release_respone.json()            
+    } catch (error) {
+        release_version = 'v1.0.0'
+        bin_download_url = 'https://github.com/chinsingh/getJabbed/releases/download/'+ release_version +'/GetJabbed.exe'
+        return bin_download_url;
+    }
+
+    release_version = release_data["tag_name"]
+    bin_download_url = 'https://github.com/chinsingh/getJabbed/releases/download/'+ release_version +'/GetJabbed.exe'
+    return bin_download_url;
+}
+
+// Utility
 function get_today_date(){
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
@@ -24,3 +42,4 @@ function get_today_date(){
     today = dd + '-' + mm + '-' + yyyy;
     return today;
 }
+

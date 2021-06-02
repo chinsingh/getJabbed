@@ -1,6 +1,6 @@
 // Release
-const RELEASE_VERSION = 'v1.0.0'
-const BIN_DOWNLOAD_URL = 'https://github.com/chinsingh/getJabbed/releases/download/'+ RELEASE_VERSION +'/GetJabbed.exe'
+const GITHUB_LATEST_RELEASE = 'https://api.github.com/repos/chinsingh/getJabbed/releases/latest'
+
 
 
 // Cowin API
