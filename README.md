@@ -40,7 +40,7 @@ You can also [report a bug, request a feature](https://github.com/chinsingh/getJ
 Please [consider donating](https://www.pmcares.gov.in/en/) to a COVID relief fund of your choice.
 
 ## Credits
-This project was made possible by the [COWIN API](https://apisetu.gov.in/public/marketplace/api/cowin/cowin-public-v2#).
+This project was made possible by the [COWIN API](https://apisetu.gov.in/public/marketplace/api/cowin/).
 
 ## License
 [MIT](https://github.com/chinsingh/getJabbed/blob/master/LICENSE.md)
