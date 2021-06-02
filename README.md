@@ -43,4 +43,4 @@ Please [consider donating](https://www.pmcares.gov.in/en/) to a COVID relief fun
 This project was made possible by the [COWIN API](https://apisetu.gov.in/public/marketplace/api/cowin/).
 
 ## License
-[MIT](https://github.com/chinsingh/getJabbed/blob/master/LICENSE.md)
+[MIT](https://github.com/chinsingh/getJabbed/blob/master/LICENSE)
