@@ -22,13 +22,10 @@ async function get_bin_download_url(){
     try {
         let release_respone = await fetch(GITHUB_LATEST_RELEASE)
         let release_data = await release_respone.json()            
-    } catch (error) {
+        release_version = release_data["tag_name"]
+        } catch (error) {
         release_version = 'v1.0.0'
-        bin_download_url = 'https://github.com/chinsingh/getJabbed/releases/download/'+ release_version +'/GetJabbed.exe'
-        return bin_download_url;
     }
-
-    release_version = release_data["tag_name"]
     bin_download_url = 'https://github.com/chinsingh/getJabbed/releases/download/'+ release_version +'/GetJabbed.exe'
     return bin_download_url;
 }
